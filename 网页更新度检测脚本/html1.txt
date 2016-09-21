@@ -1,0 +1,142 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<HEAD>
+<TITLE>st-shop</TITLE>
+<META content="text/html; charset=utf-8" http-equiv=Content-Type>
+<link rel="stylesheet" type="text/css" href="g.css" />
+</HEAD>
+<body>
+<div id="top1">
+  <a href="index.asp">首页</a> | 
+  <A href="login.asp">登录</A> | <A href="reg.asp">注册</A>
+  
+  | <img src="images/car.jpg" /> <a href="car.asp"><strong>购物车</strong></a>(<strong>0</strong>) </div>
+<div id="top2">
+  <div id="top2left"><a href="index.asp"><img src="images/logo.jpg"  border="0"/></a></div>
+  <div id="top2right">
+    <table  id="search" >
+      <form action="search.asp" method="post">
+        <tr>
+          <td><input type="text" name="keyword" id="searchinput" /></td>
+          <td><input type="submit" value="搜索" id="searchsubit" /></td>
+        </tr>
+      </form>
+    </table>
+  </div>
+</div>
+
+<!--<div id="top-menu" style="background:#000">
+  <li><a href="">首页</a></li>
+  <li>品牌商城</li>
+  <li>新品</li>
+  <li>公告</li>
+</div>-->
+
+<div id="main">
+<br>
+<table width="100%">
+<tr>
+<td width="250" valign="top"><div id="menu">
+<img src="images/menu.jpg" />
+
+
+</div></td>
+<td valign="top">
+<div class="list">
+<h3>新品</h3>
+
+</div>
+<div class="list">
+<h3>推荐商品</h3>
+
+</div>
+<div class="list">
+<h3>最近浏览</h3>
+最近没有浏览任何商品
+</div>
+</td>
+<td width="200" valign="top">
+<div class="k">
+<h4>公告</h4> 
+
+<li>
+<a href="Article.asp?id=30" target="">asdsd</a>
+</li>
+
+<li>
+<a href="Article.asp?id=24" target="">订货须知</a>
+</li>
+
+<li>
+<a href="Article.asp?id=23" target="">优惠活动</a>
+</li>
+
+</div>
+<br>
+
+<div class="k">
+<h4>新闻</h4> 
+
+<li>
+<a href="Article.asp?id=32" target="">111111zzk2222</a>
+</li>
+
+<li>
+<a href="Article.asp?id=31" target="">se</a>
+</li>
+
+<li>
+<a href="Article.asp?id=29" target="">test2</a>
+</li>
+
+<li>
+<a href="Article.asp?id=25" target="">test</a>
+</li>
+
+</div>
+</td>
+</tr>
+</table>
+<br>
+<div id="bottom">
+  <table id="bt">
+    <tr valign="top">
+      <td width="25%"><h4>购物指南</h4>
+        ·购物流程<br />
+        ·会员介绍<br />
+        ·订单状态 <br />
+        ·常见问题 <br />
+        ·大家电 <br />
+        ·联系客服</td>
+        <td width="1px" bgcolor="#CCCCCC"></td>
+      <td width="25%"><h4>配送方式</h4>
+        ·上门自提 <br />
+        ·快递运输 <br />
+        ·特快专递（EMS） <br />
+        ·如何送礼 <br />
+        ·海外购物</td> <td width="1px" bgcolor="#CCCCCC"></td>
+      <td width="25%"><h4>支付方式</h4>
+        ·货到付款 <br />
+        ·在线支付 <br />
+        ·分期付款 <br />
+        ·邮局汇款 <br />
+        ·公司转账</td> <td width="1px" bgcolor="#CCCCCC"></td>
+      <td width="25%"><h4>售后服务</h4>
+        ·退换货政策 <br />
+        ·退换货流程 <br />
+        ·价格保护 <br />
+        ·退款说明 <br />
+        ·返修申请 <br />
+        ·退款申请</td>
+    </tr>
+  </table>
+  <h3>st-shop</h3>
+  <strong>地址：</strong>广州市花都区新华街花城路</font> <strong>联系电话：</strong>1343562-7874 / <strong>QQ:</strong>11111 / <strong>MSN:</strong>132@msn.com <br />
+  <strong>E-MAIL:</strong>hahaha19842003@gmail.com / <strong>微博网址：</strong><a href="http://weibo.com/" target="_blank">http://weibo.com/</a></font></span>
+  </p>
+</div>
+
+</div>
+</body>
+</HTML>
