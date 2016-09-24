@@ -22,11 +22,13 @@ title = 'monty python flying sky'
 print title.find('python')
 
 #join 是split的逆方法，用来连接序列的元素 被连接的序列元素必须是字符串
-seq = ['1','2','3','4','5']
+seq = ['1','2','3','4','5']   #列表
 a = '+++++++'
 b = '+'
 print a.join(seq)
+#1+++++++2+++++++3+++++++4+++++++5
 print b.join(seq)
+#1+2+3+4+5
 
 dirs = '','usr','bin','env'
 print '/'.join(dirs)
