@@ -110,7 +110,7 @@ print '********************'
 #print strings
 
 #跳出循环
-#break 跳出，继续下一次循环
+#break 跳出
 from math import sqrt
 for i in range(99,0,-1):   #步长为 -1 使得可以反向迭代
     root = sqrt(i)
