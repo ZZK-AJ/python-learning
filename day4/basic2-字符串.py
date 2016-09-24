@@ -38,24 +38,28 @@ print 'C:' + '\\'.join(dirs)
 
 #lower 返回字符串的小写字母版本
 print 'ttttTTTTTTTTTtttt'.lower()
+#ttttttttttttttttt
 
 name = 'ZZK'
 names = 'zzk aj '
 if name in names:
-    print 'found it!'
+    print 'found it！！！！！！！！！！!'
 if name.lower() in names:
     print 'found it!'
 
 #replace 方法 返回某字符串所有匹配项都被替换后得到的字符串
 print 'this a place to a repalce '.replace('a','zzk')   #实现查找替换功能
+#this zzk plzzkce to zzk repzzklce
 
 #split join的逆方法，用来将字符串分割成序列
 print '1+2+3+4+5'.split('+')
+#['1', '2', '3', '4', '5']
 
 print '/usr/bin/env'.split('/')
+#['', 'usr', 'bin', 'env']
 
 print 'using the default'.split()
-
+#['using', 'the', 'default']
 
 
 
