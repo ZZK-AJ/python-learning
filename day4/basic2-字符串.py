@@ -32,7 +32,9 @@ print b.join(seq)
 
 dirs = '','usr','bin','env'
 print '/'.join(dirs)
+#/usr/bin/env
 print 'C:' + '\\'.join(dirs)
+#C:\usr\bin\env
 
 #lower 返回字符串的小写字母版本
 print 'ttttTTTTTTTTTtttt'.lower()
