@@ -1,26 +1,33 @@
 # coding:UTF-8
 __author__ = 'zhongzhikun'
 #定义函数
-def hello(name):
-    return 'Hello, ' + name + '!'
+def hello(name):        #实现一个有参数的函数
+    return 'Hello, ' + name + '!'   #返回这个参数，+ 用于拼接
 
 print hello('world')
 print hello('zzkaj')
 print hello('钟智坤')
 
-print '钟智坤'
+# Hello, world!
+# Hello, zzkaj!
+# Hello, 钟智坤!
+
 
 #位置参数和关键字参数
 def hello1(greeting,name):
     print '%s,%s' %(greeting,name)
 hello1('hello','world!')
+# hello,world!
 
-def hello2(greeting,name):
+def hello2(greeting,name):      #表明了是位置参数
     print '%s,%s' %(greeting,name)
 hello2('world','hello')
+# world,hello
 
-hello1(greeting='world',name='hello')
+hello1(greeting='world',name='hello')       #显示的指明这个是关键字参数
 hello1(name='hello',greeting='world')
+# world,hello
+# world,hello
 
 #关键字参数最好的就是能给函数提供默认参数
 
@@ -28,24 +35,32 @@ hello1(name='hello',greeting='world')
 def print_params(*params):
     print params
 print_params('testing')
-
 print_params(1,2,3)
+# ('testing',)
+# (1, 2, 3)
 
 def print_params2(title,*params):
     print title
     print params
 print_params2('params',1,1,2,3)    #可以知道参数前面的星号把所有值都收集起来放在元组里，*的意思就是收集其余参数
+# params
+# (1, 1, 2, 3)
+
 
 #关键字参数的收集工作,收集后面的参数，组成字典输出
 def print_params_3(**params):
     print params
 print_params_3(x=1,y=2,z=3)
+# {'y': 2, 'x': 1, 'z': 3}
 
 def print_params_4(x,y,z=99,*pospar,**keypar):
     print x,y,z
     print pospar
     print keypar
 print_params_4(1,2,88,4,5,6,7,foo=1,bar=2)
+# 1 2 88
+# (4, 5, 6, 7)
+# {'foo': 1, 'bar': 2}
 
 #实现多个名字的同时存储
 def store(data,*full_names):
@@ -73,12 +88,14 @@ params = (1,2)
 add(*params)
 
 #练习使用参数
-
+print '---------------------'
 #变量的作用域
-def foo():x=42
+def foo():
+    x=42
 x = 1
 foo()
 print x    #foo中的不会影响全局的x
+#1
 
 #使用全局变量作为参数名
 def output(x):
@@ -86,6 +103,7 @@ def output(x):
 x = 1
 y = 2
 output(y)
+#2
 
 #屏蔽引发的问题
 #嵌套作用域
@@ -97,11 +115,12 @@ def recursion():
 #计算N的阶乘
 def factorial(n):
     result = n
-    for i in range(1,n):
-        result *=i
+    for i in range(1,n):    #i从 1 一直到 n-1
+        result *=i      #result =result * i
     return result
 y = factorial(9)
 print y
+
 #使用递归的例子
 def fact(n):
     if n == 1:

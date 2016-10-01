@@ -11,7 +11,7 @@ print '文件和流'
 #如果要想写入内容，必须提供一个模式参数
 #指明，读模式和什么模式参数都不用是一样的效果
 # + 参数可以用到任何模式中，指明读和写都是允许的
-#open 函数中模式参数： 'r'读模式  'w'写模式  'a'追加模式  'b'二进制模式  '+'读写模式
+#open 函数中模式参数： 'r' 读模式  'w' 写模式  'a' 追加模式  'b' 二进制模式  '+' 读写模式
 
 #open函数的第三个参数控制着文件的缓冲，参数为0 I/O输入无缓冲 为1 I/O输入有缓冲(意味着用内存，程序更快)
 
@@ -24,6 +24,10 @@ f = open('somefiles.txt','r')
 print f.read()
 #this is somefiles in here
 f.close()
+# this
+# is
+# my
+# offer
 
 f = open('somefiles.txt','w')
 f.write('Hello World!')
@@ -37,6 +41,11 @@ f.write('aj will @ zzk!')
 f.close()
 f = open('somefiles.txt','r')
 print f.read()
+
+# Hello World!
+# Hello World!aj will @ zzk!
+
+
 print '*******************'
 
 #读写行
@@ -52,6 +61,8 @@ for i in range(3):
 
 with open("somefiles.txt", 'r') as somefiles:
     print somefiles.read()
+
+# Hello World!aj will @ zzk!zzk @ aj!zzk @ aj!zzk @ aj!
 
 print '*******************'
 #使用文件的基本方法：

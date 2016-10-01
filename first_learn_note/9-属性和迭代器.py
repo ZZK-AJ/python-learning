@@ -12,6 +12,8 @@ class FooBar():
 f = FooBar()
 a = f.somevar
 print a
+#42
+
 
 ###############################################
 class FooBar1():
@@ -19,8 +21,9 @@ class FooBar1():
         self.somevar = value
 
 f1 = FooBar1('this is a')
-a1 = f.somevar
+a1 = f1.somevar
 print a1
+#this is a
 
 #重写一般方法和特殊的构造方法
 class A:                       #A定义了一个hello的方法，被B类继承
@@ -32,6 +35,10 @@ a = A()       #创造了一个a的对象
 b = B()
 a.hello()     #利用 对象.方法 调用A类里面的方法，实现方法的功能
 b.hello()
+# hello,I am A
+# hello,I am A
+
+print '----------'
 
 #在子类中增加功能的最基本方式是增加方法，如下面B类重写了超类A中的hello方法
 class B(A):

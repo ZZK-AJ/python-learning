@@ -45,37 +45,55 @@ print '********************'
 
 #for
 #网易笔试题：
-t = 'asd'
+t = 'aj'
 s = 'zzk@ajaj'
 x = list(t)
 print x
+# ['a', 's', 'd']
 num = len(t)
 for i in range(num):
-    if x[i] not in s:
-        print 'No'
-        break
-else:
-    print 'Yes'
+    if x[i] in s:
+        print 'yyy'
+    # # else:
+    #     print 'Yes'
 
 print '********************'
 
-words = ['this','is','an','eg']
+words = ['this','is','an','eg']        #遍历一个
 for word in words:
     print word
+# this
+# is
+# an
+# eg
 
 numbers = ['1','2','3','4','5']   #这里输入的为定义了的变量 num
 for num in numbers:
     print num
+# 1
+# 2
+# 3
+# 4
+# 5
+
 
 print '********************'
 
 #迭代--循环的另外一种说法 迭代某个范围内的数字是很常见的，可以使用内建函数 range
 print range(1,10)
+# [1, 2, 3, 4, 5, 6, 7, 8, 9]
 print range(10)
+# [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+
 
 #打印1-100数字
-for i in range(100):
+for i in range(5):
     print i
+# 0
+# 1
+# 2
+# 3
+# 4
 
 #使用循环遍历字典元素
 d = {'x':'1','y':'2','z':'3'}
@@ -92,6 +110,13 @@ age = ['21','22','23']
 for i in range(len(names)):
     print 'names[i] is age[i]'
     print names[i], 'is', age[i], 'years old'   #这里的格式要注意,加上 ,
+# names[i] is age[i]
+# zzk is 21 years old
+# names[i] is age[i]
+# aj is 22 years old
+# names[i] is age[i]
+# zzkaj is 23 years old
+
 
 #使用内建的zip函数，用来并行迭代，返回一个元组的列表
 print zip(names,age)
@@ -100,14 +125,17 @@ print zip(names,age)
 print '********************'
 
 #按索引迭代
-#strings = ['xxx','is','xxx','no','xx']
-#print strings
-#index = 0
-#for string in strings:
-#    if 'xxx' in string:
-#        strings[index] = [zzk]
-#    index += 1
-#print strings
+strings = ['xxx','is','xxx','no','xx']
+print strings
+index = 0
+for str in strings:
+   if 'xxx' in str:
+       strings[index] = 'zzk'
+   index += 1
+print strings
+# ['xxx', 'is', 'xxx', 'no', 'xx']
+# ['zzk', 'is', 'zzk', 'no', 'xx']
+
 
 #跳出循环
 #break 跳出
@@ -121,7 +149,7 @@ for i in range(99,0,-1):   #步长为 -1 使得可以反向迭代
 #continue 让当前循环结束，继续下一次循环----跳过剩余的循环体，继续下一次循环
 #不常用，更加应该使用 break
 
-#while True/break 习语
+#while True/break 习语,使得一直进行循环
 #while True:
 #    wor = raw_input('please enter a word:')
 #    if not wor:      #这里表示，只要有输入，not wor 就为0 则执行下一句 print ;if 的条件满足时调用break语句 if..break把循环分为两个部分
@@ -139,24 +167,5 @@ for i in range(99,81,-1):   #步长为 -1 使得可以反向迭代
         break
 else:
     print "Didn't find it!"
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 

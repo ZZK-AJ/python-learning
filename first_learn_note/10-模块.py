@@ -3,17 +3,21 @@
 
 import math
 print math.sin(30)
+# -0.988031624093
 
-#任何python程序都可以作为模块导入
-#在模块中定义函数
+print '任何python程序都可以作为模块导入'
+print '在模块中定义函数'
 #导入hello.py模块
 
 import hello
-#hello.hello()  #调用方法,模块.函数
+hello.hello()  #调用方法,模块.函数
+#Hello,World! again
+
 
 #为了代码可以重用，定义模块
 #在模块中测试代码，在其他代码中执行hello函数，测试代码会被执行
 #就是不用上面的调用hello.hello()，只要导入后，执行就会被运行
+
 
 #包
 #为了组织好模块，可以将他们分为包。包基本上就是另外一类模块，她们可以包含其他模块
@@ -23,7 +27,7 @@ import hello
 #_all_变量
 #使用help获取帮助
 
-#文档,最好的就是看doc文档，python.org/doc
+print '文档,最好的就是看doc文档，python.org/doc'
 print range.__doc__
 
 #range(stop) -> list of integers
@@ -61,11 +65,16 @@ print range.__doc__
 print '*********1**********'
 print set(range(10))
 #set([0, 1, 2, 3, 4, 5, 6, 7, 8, 9])
+
+
 #集合是由序列构建的，集合元素的顺序是随意的
 a = set([1,2,3])
 b = set([2,3,4,5])
 print a.union(b)
 print a|b
+# set([1, 2, 3, 4, 5])
+# set([1, 2, 3, 4, 5])
+
 #.....其他的方法
 
 #堆，优先队列的一种，
@@ -82,7 +91,7 @@ print a|b
 #random() 返回0<n=<1之间的随机数n
 
 #re模块,包含对正则表达式的支持
-#学习的关键是每次只学习一点，然后使用，慢慢扩展，想要一次全部记住不现实
+print '学习的关键是每次只学习一点，然后使用，慢慢扩展，想要一次全部记住不现实'
 
 #通配符，可以匹配任何字符串
 #对特殊字符进行转义----前面加上反斜线 \

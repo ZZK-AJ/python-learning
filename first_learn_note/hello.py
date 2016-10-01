@@ -4,7 +4,7 @@ def hello():
 
 #a test
 #def test():
-hello()
+#hello()
 
 #if _name_ == '_main_':test()
 

@@ -11,7 +11,7 @@ print numbers[names.index('zzkaj')]
 
 #这样很麻烦，使用字典解决
 phonebook = {'zzk':'123','aj':'234','zzkaj':'12234'}  #这就是一个典型的字典
-print phonebook['zzkaj']
+print phonebook['zzkaj']    #使用 字典名[key] 取出字典的值
 #12234
 
 #dict函数 通过这个可以把其他映射的序列建立字典
@@ -26,16 +26,33 @@ print c
 
 #基本的字典操作
 # len(d)返回d中项的数量
+print len(d)
+#2
+
 # d[k]返回关联到键k上的值
+print c['name']
+# zzk
+
 # d[k]=v 将值v关联到键k上
+c['sex'] = 'man'
+print c
+# {'age': 42, 'name': 'zzk', 'sex': 'man'}
+
 # del d[k]为删除键为k的项
+del c['sex']
+print c
+# {'age': 42, 'name': 'zzk'}
+
 # k in d 检查d中是否有含有键为k的项
 
+
 #键的类型，可以是任意不可变的 整形，浮点型，字符串或元组
-x = {}
-x[42] = 'zzkaj'
+x = {}  #定义一个空的字典
+x[42] = 'zzkaj'     #给字典赋值
 print x
 #{42: 'zzkaj'}
+
+
 
 #eg:一个简单的数据库，用人名作为键，每个人名为另一个字典表示 phone和addr表示电话号码和地址
 people ={
@@ -67,6 +84,7 @@ labels = {
 #    print "%s's %s is %s." % (name,labels[key],people[name][key])
 #labels[key] 建立lables字典是为了这里显示而已 key 这个参数值得参考 people[name][key] 为调用字典里面的字典的方法
 
+
 #字典的格式化字符串
 print phonebook
 #{'zzkaj': '12234', 'aj': '234', 'zzk': '123'}
@@ -80,9 +98,12 @@ d = {}
 d['name'] = 'zzk'
 d['age'] = '23'
 print d
+# {'age': '23', 'name': 'zzk'}
 return_value = d.clear()
 print d
 print return_value
+# {}
+# None
 
 #copy 返回一个具有相同 键-值 的新字典，这个方法实现的是浅复制
 x = {'usename':'admin','machines':['foo','bar','baz']}
@@ -109,17 +130,15 @@ print x
 #fromkeys 使用给定的键建立新字典，每个键对应值为none
 a = {}.fromkeys(['name','age'])
 print a
+# {'age': None, 'name': None}
 
 #get 更宽松的访问字典项的方法
 d = {}
 print d.get('name')
+# None
 
 #item iteritems 将字典的项以列表的方式返回 ，列表中每一项为键值对的形式
 #.....后面的一些要点略
-
-
-
-
 
 
 
