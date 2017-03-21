@@ -5,7 +5,7 @@
 #字符串格式化
 format = "hello,%s. %s enough for you?" #这里的两个%s就是要求格式化的位置，%s为字符串，%d为数字
 values = ('world','hot')  #这里是一个元组
-print format %values    #format这个字符串，采用values的值进行格式化
+print format %values    #format 这个字符串，里面有格式化的位置，使用values的值进行格式化
 
 # % 左侧放一个字符串，右侧放一个希望被格式化的值，可以是一个字符串或者数字，也可以多个值的元组或者字典
 # %s 为转换说明符 标记了需要插入的转换值的位置，s表示值会被格式化为字符串

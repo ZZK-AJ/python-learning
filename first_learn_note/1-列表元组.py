@@ -25,10 +25,8 @@ print 'hello'[1]
 
 #分片：用分片操作访问一定范围内的元素,需要提供两个索引作为边界
 tag = '<a href="http://www.python.org">Python web site</a>'
-print tag[9:30]
-print tag[32:-4]
-# http://www.python.org
-# Python web site
+print tag[9:30]   # http://www.python.org
+print tag[32:-4]   # Python web site
 
 num = [0,1,2,3,4,5,6,7,8,9]
 print num[3:6]            #这里可以看出最后的6是不包括的
@@ -59,7 +57,7 @@ print min(num1)     #对一个列表求最小值 min()函数
 #列表
 #list函数，把字符串创建为列表
 print list('hello')
-# ['h', 'e', 'l', 'l', 'o']
+# list = ['h', 'e', 'l', 'l', 'o']
 
 #基本列表操作
 x = [1,2,3]
@@ -67,6 +65,13 @@ x = [1,2,3]
 x[1] = 23   #赋值
 print x[1]
 #23
+
+#Author:zzk
+x = [23,24]
+print(x)
+
+x[1] = 23
+print(x)
 
 del x[1]   #删除元素
 print x
