@@ -13,7 +13,7 @@ header = {
     'User-Agent':'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36'
 }
 
-url ='http://blog.csdn.net/experts.html'
+url ='http://www.csdn.net/'
 
 req = urllib2.Request(url)
 try:
@@ -27,7 +27,7 @@ except urllib2.URLError,e:
         print "Error code:",e.code
         print "Return content:",e.read()
 
-# with open('html.txt','wb') as f:
-#     f.write(content)
+with open('html.txt','wb') as f:
+    f.write(content)
 
 
