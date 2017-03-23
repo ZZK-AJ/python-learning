@@ -2,7 +2,7 @@
 #coding=utf-8
 # import urllib.request
 import urllib2
-import re
+import testre
 import sys
 import os
 URL="http://www.csdn.net/"
@@ -12,9 +12,9 @@ content = response.read()
 print content
 with open('html.txt', 'a+') as f:        #to write content to  html.txt
   f.write(content)
-m = re.search(r'\w+\s=\s"//\w+.*"',content)
-# m = re.search(r'<(body)\s\w+.*</(body)',content)
-print m.group(0)
+# m = re.search(r'\w+\s=\s"//\w+.*"',content)
+# # m = re.search(r'<(body)\s\w+.*</(body)',content)
+# print m.group(0)
 
 
 #</script>

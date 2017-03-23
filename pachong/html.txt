@@ -231,14 +231,14 @@ if ( userName && userName != "Guest" )
       </div>
       <div class="news_list">
         <ul>
+                      <li><a title="IBM PowerAI编程马拉松：模拟银行案例场景 20组团队奋战12小时" href="http://geek.csdn.net/news/detail/188197" target="_blank" onclick="LogClickCount(this,330);">IBM PowerAI编程马拉松：模拟银行案例场景 20组团队奋战12小时</a></li>
+                      <li><a title="【AI每日播报】三星发布AI助手 谷歌打造超速AI" href="http://geek.csdn.net/news/detail/188152" target="_blank" onclick="LogClickCount(this,330);">【AI每日播报】三星发布AI助手 谷歌打造超速AI</a></li>
+                      <li><a title="IoT黑板报：苹果CEO库克试骑小黄车" href="http://geek.csdn.net/news/detail/188140" target="_blank" onclick="LogClickCount(this,330);">IoT黑板报：苹果CEO库克试骑小黄车</a></li>
                       <li><a title="【线上峰会直播】互联网应用架构解析与实战！" href="http://edu.csdn.net/huiyiCourse/series_detail/29?ref=home&loc=r1" target="_blank" onclick="LogClickCount(this,330);">【线上峰会直播】互联网应用架构解析与实战！</a></li>
                       <li><a title="CCTC 2016 精彩掠影：春和景明日，予你一场技术芳菲的邂逅" href="http://geek.csdn.net/news/detail/188007" target="_blank" onclick="LogClickCount(this,330);">CCTC 2016 精彩掠影：春和景明日，予你一场技术芳菲的邂逅</a></li>
                       <li><a title="【直播实战】关于Python！关于机器学习！倒计时中" href="http://edu.csdn.net/huiyiCourse/series_detail/28?ref=srch&loc=r0" target="_blank" onclick="LogClickCount(this,330);">【直播实战】关于Python！关于机器学习！倒计时中</a></li>
                       <li><a title="HTTPS 协议与 HTTP2 协议分析" href="http://geek.csdn.net/news/detail/188003" target="_blank" onclick="LogClickCount(this,330);">HTTPS 协议与 HTTP2 协议分析</a></li>
                       <li><a title="微软Azure IoT套件远程监视预配置解决方案1：连接开发者套件" href="http://geek.csdn.net/news/detail/187998" target="_blank" onclick="LogClickCount(this,330);">微软Azure IoT套件远程监视预配置解决方案1：连接开发者套件</a></li>
-                      <li><a title=" IoT黑板报：​IBM董事长称北京污染已可找到原因" href="http://geek.csdn.net/news/detail/187907" target="_blank" onclick="LogClickCount(this,330);"> IoT黑板报：​IBM董事长称北京污染已可找到原因</a></li>
-                      <li><a title="直播 | 解密Google Tango，从视觉惯性里程计到机器人SLAM" href="http://edu.csdn.net/huiyiCourse/detail/341" target="_blank" onclick="LogClickCount(this,330);">直播 | 解密Google Tango，从视觉惯性里程计到机器人SLAM</a></li>
-                      <li><a title="NeuralFinder：集成人工生命和遗传算法自动发现神经网络最优结构" href="http://blog.csdn.net/malefactor/article/details/63250929#0-tsina-1-21389-397232819ff9a47a7b7e80a40613cfe1" target="_blank" onclick="LogClickCount(this,330);">NeuralFinder：集成人工生命和遗传算法自动发现神经网络最优结构</a></li>
                   </ul>
         <a href="http://geek.csdn.net" target="_blank" class="more" onclick="LogClickCount(this,330);">更多</a> </div>
     </div>
@@ -252,22 +252,22 @@ if ( userName && userName != "Guest" )
         <div class="box hot_blog">
           <h2><a href="http://geek.csdn.net" target="_blank" onclick="LogClickCount(this,363);">极客头条</a></h2>
           <ul>
-                          <li><a title="想要学习速度快人十倍，可以试试融会贯通" href="http://geek.csdn.net/news/detail/188132" target="_blank" onclick="LogClickCount(this,363);">
-                想要学习速度快人十倍，可以试试融会贯通                </a></li>
-                          <li><a title="说一说,github下载提速" href="http://geek.csdn.net/news/detail/188131" target="_blank" onclick="LogClickCount(this,363);">
-                说一说,github下载提速                </a></li>
-                          <li><a title="Amazon在AWS DynamoDB中添加了对过期时间（TTL）特性的支持" href="http://geek.csdn.net/news/detail/188130" target="_blank" onclick="LogClickCount(this,363);">
-                Amazon在AWS DynamoDB中添加了对过期时间（TTL）特性的支持                </a></li>
-                          <li><a title="从单体应用转为分布式系统：来自Deliveroo的实践" href="http://geek.csdn.net/news/detail/188129" target="_blank" onclick="LogClickCount(this,363);">
-                从单体应用转为分布式系统：来自Deliveroo的实践                </a></li>
-                          <li><a title="未来的并发和分布式编程" href="http://geek.csdn.net/news/detail/188128" target="_blank" onclick="LogClickCount(this,363);">
-                未来的并发和分布式编程                </a></li>
-                          <li><a title="在Java路上，我看过的一些书、源码和框架（持续更新）" href="http://geek.csdn.net/news/detail/188120" target="_blank" onclick="LogClickCount(this,363);">
-                在Java路上，我看过的一些书、源码和框架（持续更新）                </a></li>
-                          <li><a title="三星正式公布人工智能助理 Bixby" href="http://geek.csdn.net/news/detail/188116" target="_blank" onclick="LogClickCount(this,363);">
-                三星正式公布人工智能助理 Bixby                </a></li>
-                          <li><a title="Chrome是如何实现DNS的解析" href="http://geek.csdn.net/news/detail/188115" target="_blank" onclick="LogClickCount(this,363);">
-                Chrome是如何实现DNS的解析                </a></li>
+                          <li><a title="Web报表OnceVI如何制作打印条形码与二维码" href="http://geek.csdn.net/news/detail/188223" target="_blank" onclick="LogClickCount(this,363);">
+                Web报表OnceVI如何制作打印条形码与二维码                </a></li>
+                          <li><a title="如何悄无声息的对RDP和远程会话进行劫持？" href="http://geek.csdn.net/news/detail/188218" target="_blank" onclick="LogClickCount(this,363);">
+                如何悄无声息的对RDP和远程会话进行劫持？                </a></li>
+                          <li><a title="Java字符串的10大热点问题盘点" href="http://geek.csdn.net/news/detail/188211" target="_blank" onclick="LogClickCount(this,363);">
+                Java字符串的10大热点问题盘点                </a></li>
+                          <li><a title="深入分析 BI 数据可视化市场 SaaS 模式" href="http://geek.csdn.net/news/detail/188206" target="_blank" onclick="LogClickCount(this,363);">
+                深入分析 BI 数据可视化市场 SaaS 模式                </a></li>
+                          <li><a title="PHP 四种基本排序算法的代码实现" href="http://geek.csdn.net/news/detail/188203" target="_blank" onclick="LogClickCount(this,363);">
+                PHP 四种基本排序算法的代码实现                </a></li>
+                          <li><a title="写了100万行代码的程序员身上发生了什么故事" href="http://geek.csdn.net/news/detail/188201" target="_blank" onclick="LogClickCount(this,363);">
+                写了100万行代码的程序员身上发生了什么故事                </a></li>
+                          <li><a title="Linux 4.10中两个新特性与我的一段故事" href="http://geek.csdn.net/news/detail/188202" target="_blank" onclick="LogClickCount(this,363);">
+                Linux 4.10中两个新特性与我的一段故事                </a></li>
+                          <li><a title="论物联网设备通信的基本原理" href="http://geek.csdn.net/news/detail/188200" target="_blank" onclick="LogClickCount(this,363);">
+                论物联网设备通信的基本原理                </a></li>
                       </ul>
         </div>
         <div class="box special">
@@ -359,23 +359,22 @@ if ( userName && userName != "Guest" )
           <h2>滚动</h2>
           <ul>
                           <li>
-                <h3><a title="给大学生的几条良心建议" href="http://blog.csdn.net/googdev/article/details/64439156" target="_blank" onclick="LogClickCount(this,331);">
-                  给大学生的几条良心建议                  </a></h3>
+                <h3><a title="直播 | 解密Google Tango，从视觉惯性里程计到机器人SLAM" href="http://edu.csdn.net/huiyiCourse/detail/341" target="_blank" onclick="LogClickCount(this,331);">
+                  直播 | 解密Google Tango，从视觉惯性里程计到机器人SLAM                  </a></h3>
                                 <div class="summary clearfix">
-                                    这篇文章希望对更多的还在校园的同学有所帮助与思考，更希望能够消除你们对未来的迷茫与恐慌。                </div>
+                                    通过课程可以深入了解最尖端的视觉惯性里程计-- Google Tango的内部原理和局限性。随后介绍该技术在学术界的发展态势，以及过渡到机器人SLAM技术的挑战。                </div>
                               </li>
                                                       <li>
-                <h3><a title="Android图片加载框架最全解析（一），Glide的基本用法" href="http://blog.csdn.net/guolin_blog/article/details/53759439" target="_blank" onclick="LogClickCount(this,331);">
-                  Android图片加载框架最全解析（一），Glide的基本用法                  </a></h3>
+                <h3><a title="【Cloudaily】2017年政务云市场厮杀开局，腾讯云打造终端+云端一体化方案" href="http://geek.csdn.net/news/detail/188141" target="_blank" onclick="LogClickCount(this,331);">
+                  【Cloudaily】2017年政务云市场厮杀开局，腾讯云打造终端+云端一体化方案                  </a></h3>
                                 <div class="summary clearfix">
-                                    <a title="Android图片加载框架最全解析（一），Glide的基本用法" href="http://blog.csdn.net/guolin_blog/article/details/53759439" target="_blank" onclick="LogClickCount(this,331);"><img  class="image"src="http://images.csdn.net/20170321/默认标题--设计创建于创客贴 (76).png"></a>
-                                                    </div>
+                                    Cloudaily网罗新鲜要闻，每日为你呈现大数据和云计算领域热点新闻。本文为3月21日资讯内容。                </div>
                               </li>
                                                       <li>
-                <h3><a title="Android热修复学习之旅——HotFix完全解析" href="http://blog.csdn.net/u012124438/article/details/62511438" target="_blank" onclick="LogClickCount(this,331);">
-                  Android热修复学习之旅——HotFix完全解析                  </a></h3>
+                <h3><a title="NeuralFinder:集成人工生命和遗传算法自动发现神经网络最优结构" href="http://blog.csdn.net/malefactor/article/details/63250929#0-tsina-1-21389-397232819ff9a47a7b7e80a40613cfe1" target="_blank" onclick="LogClickCount(this,331);">
+                  NeuralFinder:集成人工生命和遗传算法自动发现神经网络最优结构                  </a></h3>
                                 <div class="summary clearfix">
-                                    在上一篇博客 Android热修复学习之旅开篇——热修复概述中，简单介绍了各个热修复框架的原理，本篇博客我将详细分析QQ空间热修复方案。                </div>
+                                    从16年年中开始，我们开始思考最优的深度神经网络结构自动发现的问题，并在业余时间开始逐步做些探索性的实验。当时的出发点其实很简单：对于解决某个机器学习任务，目前的常规做法是通过算法研发人员分析问题特性，并不...                </div>
                               </li>
                             <li class="ad_flow_text"> 
                 <!-- 
@@ -396,13 +395,68 @@ if ( userName && userName != "Guest" )
                 </dl>
               </li>
                                                       <li>
+                <h3><a title="“微音乐”微信小程序实战开发过程" href="http://geek.csdn.net/news/detail/188145" target="_blank" onclick="LogClickCount(this,331);">
+                  “微音乐”微信小程序实战开发过程                  </a></h3>
+                                <div class="summary clearfix">
+                                    继“微天气”后，本文作者又开发了“微音乐”微信小程序。这是一款音乐播放器，开发过程中调用了QQ音乐接口获取音乐相关数据。全文将带大家详解各页面的设计及接口调用过程。                </div>
+                              </li>
+                                                      <li>
+                <h3><a title="IoT黑板报：​IBM董事长称北京污染已可找到原因" href="http://geek.csdn.net/news/detail/187907" target="_blank" onclick="LogClickCount(this,331);">
+                  IoT黑板报：​IBM董事长称北京污染已可找到原因                  </a></h3>
+                                <div class="summary clearfix">
+                                    IBM公司董事长、总裁、首席执行官罗睿兰表示：IBM几年前跟北京环保局推出了一个项目叫“绿色地平线”。就是用物联网在城市里装一些传感器，同时用一些预测型的分析工具做污染的预报，让空气质量的预报更精准、更加的有细...                </div>
+                              </li>
+                                                      <li>
+                <h3><a title="给大学生的几条良心建议" href="http://blog.csdn.net/googdev/article/details/64439156" target="_blank" onclick="LogClickCount(this,331);">
+                  给大学生的几条良心建议                  </a></h3>
+                                <div class="summary clearfix">
+                                    这篇文章希望对更多的还在校园的同学有所帮助与思考，更希望能够消除你们对未来的迷茫与恐慌。                </div>
+                              </li>
+                                                      <li>
+                <h3><a title="“绝艺”斩获UEC杯计算机围棋大赛冠军 腾讯AI Lab将公开技术细节" href="http://geek.csdn.net/news/detail/188146" target="_blank" onclick="LogClickCount(this,331);">
+                  “绝艺”斩获UEC杯计算机围棋大赛冠军 腾讯AI Lab将公开技术细节                  </a></h3>
+                                <div class="summary clearfix">
+                                    “绝艺”由腾讯AI Lab一个13人团队花了近一年时间自主研发，涵盖了人工智能最热门的研究领域——深度学习和强化学习。                </div>
+                              </li>
+                                                      <li>
+                <h3><a title="Android图片加载框架最全解析（一），Glide的基本用法" href="http://blog.csdn.net/guolin_blog/article/details/53759439" target="_blank" onclick="LogClickCount(this,331);">
+                  Android图片加载框架最全解析（一），Glide的基本用法                  </a></h3>
+                                <div class="summary clearfix">
+                                    <a title="Android图片加载框架最全解析（一），Glide的基本用法" href="http://blog.csdn.net/guolin_blog/article/details/53759439" target="_blank" onclick="LogClickCount(this,331);"><img  class="image"src="http://images.csdn.net/20170321/默认标题--设计创建于创客贴 (76).png"></a>
+                                                    </div>
+                              </li>
+                                                      <li>
+                <h3><a title="Android热修复学习之旅——HotFix完全解析" href="http://blog.csdn.net/u012124438/article/details/62511438" target="_blank" onclick="LogClickCount(this,331);">
+                  Android热修复学习之旅——HotFix完全解析                  </a></h3>
+                                <div class="summary clearfix">
+                                    在上一篇博客 Android热修复学习之旅开篇——热修复概述中，简单介绍了各个热修复框架的原理，本篇博客我将详细分析QQ空间热修复方案。                </div>
+                              </li>
+                                                      <li>
                 <h3><a title="CSDN日报20170320——《Java 程序员的面试经历和题库》" href="http://blog.csdn.net/blogdevteam/article/details/64128681" target="_blank" onclick="LogClickCount(this,331);">
                   CSDN日报20170320——《Java 程序员的面试经历和题库》                  </a></h3>
                                 <div class="summary clearfix">
                                     <a title="CSDN日报20170320——《Java 程序员的面试经历和题库》" href="http://blog.csdn.net/blogdevteam/article/details/64128681" target="_blank" onclick="LogClickCount(this,331);"><img  class="image"src="http://images.csdn.net/20170320/默认标题--设计创建于创客贴 (73).png"></a>
                                                     </div>
                               </li>
-                                                      <li>
+                                          <li class="ad_flow_text"> 
+                <!-- 
+				<dl>
+										<dt><a title="学Android还花钱？月薪还不到8千？你OUT了！" href="http://g.csdn.net/5272274" target="_blank">学Android还花钱？月薪还不到8千？你OUT了！</a></dt>
+					<dd>3000余名经考试录取的学员，免费学习4个月，平均起薪8123元/月。找不到工作免费，薪水低了也免费！</dd>
+										<dt><a title="微信大会8月1日前购票8折并赠书" href="http://g.csdn.net/5272495" target="_blank">微信大会8月1日前购票8折并赠书</a></dt>
+					<dd>微信开发者大会演讲话题包括：企业服务号开发和高级应用、企业号开发、如何与业务系统对接、各种...</dd>
+									</dl>
+				 -->
+                <dl>
+                  <div adsid="home07a">
+                  	<ins data-revive-zoneid="139" data-revive-id="8c38e720de1c90a6f6ff52f3f89c4d57"></ins>
+                  </div>
+                  <div adsid="home07b">
+                  	<ins data-revive-zoneid="140" data-revive-id="8c38e720de1c90a6f6ff52f3f89c4d57"></ins>
+                  </div>
+                </dl>
+              </li>
+                                        <li>
                 <h3><a title="Android逆向之旅---获取加固后应用App的所有方法信息" href="http://blog.csdn.net/jiangwei0910410003/article/details/54982476" target="_blank" onclick="LogClickCount(this,331);">
                   Android逆向之旅---获取加固后应用App的所有方法信息                  </a></h3>
                                 <div class="summary clearfix">
@@ -438,25 +492,7 @@ if ( userName && userName != "Guest" )
                                 <div class="summary clearfix">
                                     YouTube 推出 VR 视频和 360 全景视频的支持已经有一段时间了，近期 YouTube 称团队正在致力于改善此类视频质量的工作。他们正在同 Daydream 团队协同工作，共同研发新制定的 360 度视频的行业标准，并希望能全面提升所有创作的 VR 内...                </div>
                               </li>
-                                          <li class="ad_flow_text"> 
-                <!-- 
-				<dl>
-										<dt><a title="学Android还花钱？月薪还不到8千？你OUT了！" href="http://g.csdn.net/5272274" target="_blank">学Android还花钱？月薪还不到8千？你OUT了！</a></dt>
-					<dd>3000余名经考试录取的学员，免费学习4个月，平均起薪8123元/月。找不到工作免费，薪水低了也免费！</dd>
-										<dt><a title="微信大会8月1日前购票8折并赠书" href="http://g.csdn.net/5272495" target="_blank">微信大会8月1日前购票8折并赠书</a></dt>
-					<dd>微信开发者大会演讲话题包括：企业服务号开发和高级应用、企业号开发、如何与业务系统对接、各种...</dd>
-									</dl>
-				 -->
-                <dl>
-                  <div adsid="home07a">
-                  	<ins data-revive-zoneid="139" data-revive-id="8c38e720de1c90a6f6ff52f3f89c4d57"></ins>
-                  </div>
-                  <div adsid="home07b">
-                  	<ins data-revive-zoneid="140" data-revive-id="8c38e720de1c90a6f6ff52f3f89c4d57"></ins>
-                  </div>
-                </dl>
-              </li>
-                                        <li>
+                                                      <li>
                 <h3><a title="【Cloudaily】万达与IBM战略合作，人工智能激活企业云市场" href="http://geek.csdn.net/news/detail/187978" target="_blank" onclick="LogClickCount(this,331);">
                   【Cloudaily】万达与IBM战略合作，人工智能激活企业云市场                  </a></h3>
                                 <div class="summary clearfix">
@@ -480,44 +516,6 @@ if ( userName && userName != "Guest" )
                   【AI创新者】小蚁首架张骏峰：让图像AI人尽可用                  </a></h3>
                                 <div class="summary clearfix">
                                     <a title="【AI创新者】小蚁首架张骏峰：让图像AI人尽可用" href="http://geek.csdn.net/news/detail/187105" target="_blank" onclick="LogClickCount(this,331);"><img  class="image"src="http://images.csdn.net/20170318/11.png"></a>
-                                                    </div>
-                              </li>
-                                                      <li>
-                <h3><a title="【Cloudaily】微软爆发性云存储故障，殃及全球26个数据中心" href="http://geek.csdn.net/news/detail/187567" target="_blank" onclick="LogClickCount(this,331);">
-                  【Cloudaily】微软爆发性云存储故障，殃及全球26个数据中心                  </a></h3>
-                                <div class="summary clearfix">
-                                    Cloudaily网罗新鲜要闻，每日为你呈现大数据和云计算领域热点新闻。本文为3月17日资讯内容。                </div>
-                              </li>
-                                                      <li>
-                <h3><a title="Nanjing AI MeetUp：人工智能峰会" href="http://huiyi.csdn.net/activity/product/goods_list?project_id=3427" target="_blank" onclick="LogClickCount(this,331);">
-                  Nanjing AI MeetUp：人工智能峰会                  </a></h3>
-                                <div class="summary clearfix">
-                                    本次活动聚集百度、华为2012实验室、Ucloud等知名互联网资深专家、架构师、CEO、CTO，以及清华大学知名学者，给带来一场关于人工智能的盛宴，涉及机器学习、深度学习、自然语言处理。                </div>
-                              </li>
-                                                      <li>
-                <h3><a title="CSDN日报20170316——《每个程序员都需要的中文排版指南》 " href="http://blog.csdn.net/blogdevteam/article/details/62423809" target="_blank" onclick="LogClickCount(this,331);">
-                  CSDN日报20170316——《每个程序员都需要的中文排版指南》                   </a></h3>
-                                <div class="summary clearfix">
-                                    <a title="CSDN日报20170316——《每个程序员都需要的中文排版指南》 " href="http://blog.csdn.net/blogdevteam/article/details/62423809" target="_blank" onclick="LogClickCount(this,331);"><img  class="image"src="http://images.csdn.net/20170316/默认标题--设计创建于创客贴 (71).png"></a>
-                                                    </div>
-                              </li>
-                                                      <li>
-                <h3><a title="【Cloudaily】3.15五招教你辨别真假云计算，2017 Gartner数据科学魔力象限出炉" href="http://geek.csdn.net/news/detail/187265" target="_blank" onclick="LogClickCount(this,331);">
-                  【Cloudaily】3.15五招教你辨别真假云计算，2017 Gartner数据科学魔力象限出炉                  </a></h3>
-                                <div class="summary clearfix">
-                                    Cloudaily网罗新鲜要闻，每日为你呈现大数据和云计算领域热点新闻。本文为3月16日资讯内容。                </div>
-                              </li>
-                                                      <li>
-                <h3><a title="React+Redux技术栈核心要点解析（下篇）" href="http://geek.csdn.net/news/detail/187251" target="_blank" onclick="LogClickCount(this,331);">
-                  React+Redux技术栈核心要点解析（下篇）                  </a></h3>
-                                <div class="summary clearfix">
-                                    React+Redux技术栈的开发应用已有很长一段时间，用友网络FED团队负责人郭永峰根据实战经验，发布系列文章，总结了使用该技术栈的诸多要点，本文为第三篇。                </div>
-                              </li>
-                                                      <li>
-                <h3><a title="IoT黑板报：ofo新车搭载NB-IoT智能方案" href="http://geek.csdn.net/news/detail/186948" target="_blank" onclick="LogClickCount(this,331);">
-                  IoT黑板报：ofo新车搭载NB-IoT智能方案                  </a></h3>
-                                <div class="summary clearfix">
-                                    <a title="IoT黑板报：ofo新车搭载NB-IoT智能方案" href="http://geek.csdn.net/news/detail/186948" target="_blank" onclick="LogClickCount(this,331);"><img  class="image"src="http://images.csdn.net/20170316/1.png"></a>
                                                     </div>
                               </li>
                                                   </ul>
@@ -675,7 +673,7 @@ if ( userName && userName != "Guest" )
 	      <div class="lib-list-right">
 	        <h4><a title="人工智能知识库" href="http://lib.csdn.net/base/ai" target="_blank" onclick="LogClickCount(this,418);">人工智能知识库</a></h4>
 	        <div class="lib-list-txt">
-	          <span class="num">11870</span><span class="txt">关注</span>
+	          <span class="num">11885</span><span class="txt">关注</span>
 	          <span class="line">|</span>
 	          <span class="num">526</span><span class="txt">收录</span>
 	        </div>
@@ -686,7 +684,7 @@ if ( userName && userName != "Guest" )
 	      <div class="lib-list-right">
 	        <h4><a title="Python知识库" href="http://lib.csdn.net/base/python" target="_blank" onclick="LogClickCount(this,418);">Python知识库</a></h4>
 	        <div class="lib-list-txt">
-	          <span class="num">21538</span><span class="txt">关注</span>
+	          <span class="num">21557</span><span class="txt">关注</span>
 	          <span class="line">|</span>
 	          <span class="num">1344</span><span class="txt">收录</span>
 	        </div>
@@ -697,7 +695,7 @@ if ( userName && userName != "Guest" )
 	      <div class="lib-list-right">
 	        <h4><a title="Java SE知识库" href="http://lib.csdn.net/base/javase" target="_blank" onclick="LogClickCount(this,418);">Java SE知识库</a></h4>
 	        <div class="lib-list-txt">
-	          <span class="num">24690</span><span class="txt">关注</span>
+	          <span class="num">24709</span><span class="txt">关注</span>
 	          <span class="line">|</span>
 	          <span class="num">477</span><span class="txt">收录</span>
 	        </div>
@@ -708,7 +706,7 @@ if ( userName && userName != "Guest" )
 	      <div class="lib-list-right">
 	        <h4><a title="微信开发知识库" href="http://lib.csdn.net/base/wechat" target="_blank" onclick="LogClickCount(this,418);">微信开发知识库</a></h4>
 	        <div class="lib-list-txt">
-	          <span class="num">19632</span><span class="txt">关注</span>
+	          <span class="num">19640</span><span class="txt">关注</span>
 	          <span class="line">|</span>
 	          <span class="num">791</span><span class="txt">收录</span>
 	        </div>
@@ -809,12 +807,12 @@ if ( userName && userName != "Guest" )
     <div class="box job">
     	<h2><a target="_blank" href="http://open.itcast.cn" class="more" onclick="LogClickCount(this,368);">查看更多课程</a>传智播客</h2>
 		<dl>
-      				<dt><a title="程序员即将面临一次就业危机" href="http://g.csdn.net/5297579" target="_blank" onclick="LogClickCount(this,368);">程序员即将面临一次就业危机</a></dt>
-			<dd>以编程学习为主导的传智专修学院于今日9:00正式揭牌。将培养一批高学历的IT精英。你，何去何从？</dd>
-        			<dt><a title="录取率比高考还低，谁给了你这样的底气？" href="http://g.csdn.net/5297571" target="_blank" onclick="LogClickCount(this,368);">录取率比高考还低，谁给了你这样的底气？</a></dt>
+      				<dt><a title="录取率比高考还低，谁给了你这样的底气？" href="http://g.csdn.net/5297571" target="_blank" onclick="LogClickCount(this,368);">录取率比高考还低，谁给了你这样的底气？</a></dt>
 			<dd>传智专修学院0元入学，月薪不到8千不交学费，颠覆式教学模式</dd>
         			<dt><a title="传智播客成功挂牌新三板，即将开启颠覆式民办高等教育" href="http://g.csdn.net/5297551" target="_blank" onclick="LogClickCount(this,368);">传智播客成功挂牌新三板，即将开启颠覆式民办高等教育</a></dt>
 			<dd>2016年12月13日，随着传智播客（股票代码：839976）新三板挂牌仪式钟声的响起，在教育行业躬耕不辍...</dd>
+        			<dt><a title="大家在忙找工作,学完Web前端却在挑工作" href="http://g.csdn.net/5297570" target="_blank" onclick="LogClickCount(this,368);">大家在忙找工作,学完Web前端却在挑工作</a></dt>
+			<dd>据统计,前端开发人员对于目前的市场需求来说依然供不应求,大多数中小型企业依旧表明需要大量前端...</dd>
         		</dl>
     </div>
     

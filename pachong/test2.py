@@ -5,6 +5,7 @@ import urllib2
 # import urllib
 import cookielib
 
+
 cookie_support= urllib2.HTTPCookieProcessor(cookielib.CookieJar())
 opener = urllib2.build_opener(cookie_support, urllib2.HTTPHandler)
 urllib2.install_opener(opener)
@@ -27,7 +28,14 @@ except urllib2.URLError,e:
         print "Error code:",e.code
         print "Return content:",e.read()
 
-with open('html.txt','wb') as f:
-    f.write(content)
+# with open('html.txt','wb') as f:
+#     f.write(content)
 
-
+# def redata(regex,content,index):
+#     recompile = re.compile(regex)
+#     data = recompile.search(content)
+#     return data.group(index)
+#
+# regex1 = r'<li><a title=(.*?)'
+# title = redata(regex1,content,1)
+# print title
