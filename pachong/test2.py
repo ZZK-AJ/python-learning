@@ -26,7 +26,6 @@ except urllib2.URLError,e:
         print "The reason:",e.reason
     elif hasattr(e,"code"):
         print "Error code:",e.code
-        print "Return content:",e.read()
 
 # with open('html.txt','wb') as f:
 #     f.write(content)
